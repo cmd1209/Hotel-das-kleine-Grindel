@@ -1,0 +1,101 @@
+article.page
+  font-size: 1.5rem
+  position: relative
+  padding: 0
+  background: $primary-color /* Old browsers */
+  background: -moz-linear-gradient(top,  $primary-color 65%, white 65%,  white 100%) /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  $primary-color 65%, white 65%, white 100%) /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  $primary-color 65%, white 65%, white 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63707a', endColorstr='#e5e5e5',GradientType=0 ) /* IE6-9 */
+
+.beschreibung
+  margin: 0 0 0.5em 0
+  @media (max-width: $toast-breakpoint-small)
+    margin: 1em 0
+
+.block-holder
+  margin-top: 1em
+
+.col-center
+  text-align: center
+  @media (max-width: $toast-breakpoint-small)
+    text-align: left
+
+.content-block
+  z-index: 2
+  background-color: rgba($neutral-grey, 0.85)
+  padding: 1em 1em 0 1em
+  position: relative
+  width: 646px
+  margin: -213px auto 0 auto
+  @media (max-width: $toast-breakpoint-medium) and (min-width: $toast-breakpoint-small)
+    width: 100%
+    margin: 0 auto 0 auto
+  @media (max-width: $toast-breakpoint-small)
+    width: 100%
+    margin: 0 auto 0 auto
+    padding: 1em
+
+.content-holder
+  border: 2px solid $room1
+  background-color: $offwhite
+  margin: 0 0 1em 0
+  &:last-of-type
+    margin: 0
+
+.features
+  font-size: 1.125em
+  text-transform: uppercase
+  list-style: none
+  padding: 0
+  margin: 1em 0
+
+.room1
+  padding: 1em
+
+.room2
+  padding: 1em
+
+.room-size
+  font-size: 1.5em
+  margin: 0 0 0.5em 0
+
+.room-price
+  font-size: 1.5em
+  margin: 0
+
+.site-description
+  text-align: center
+  color: $primary-color
+
+.site-title
+  color: $primary-color
+  text-align: center
+  text-transform: uppercase
+
+.square
+  display: block
+  margin-bottom: 1em
+  min-width: 100%
+  height: 200px
+  background-color: $primary-color
+  border: 2px solid $room1
+  @media (max-width: $toast-breakpoint-medium)
+    height: 225px
+  @media (max-width: $toast-breakpoint-small)
+    height: 100px
+
+$slug: square !default
+
+@for $i from 1 through 9
+  .#{$slug}#{$i}
+    background: url(img/squares/sqback + $i) center center no-repeat
+    background-size: cover
+    transition: all 1s ease
+    &:hover
+      border: 2px solid $room2
+      opacity: 0.4
+      transition: all 1s ease
+
+.zimmer-img
+  display: block

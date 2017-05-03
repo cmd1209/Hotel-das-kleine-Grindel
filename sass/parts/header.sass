@@ -1,0 +1,35 @@
+.buchen-star
+  position: absolute
+  z-index: 100
+  top: 60%
+  right: 86px
+  display: block
+  transition-duration: 1s
+  &:hover
+    transform: rotate(10deg)
+    transition-duration: 1s
+  img
+    width: 100%
+  @media (max-width: $toast-breakpoint-small)
+    right: -12px
+    top: 90px
+
+header
+  max-height: 130px
+  display: block
+  padding: 1em
+  position: relative
+  @media (max-width: $toast-breakpoint-small)
+    height: 150px
+    max-height: 150px
+
+.logo-img
+  max-width: 156px
+  margin: 0 auto
+  display: block
+  @media (max-width: $toast-breakpoint-small)
+    width: 123px
+    margin: 26px auto 0 auto
+
+.thing
+  width: 100%

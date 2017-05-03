@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'zimmer_boldbold';
+    src: url('fonts/zimmer_bold-webfont.woff2') format('woff2'),
+         url('fonts/zimmer_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'zimmermedium';
+    src: url('fonts/zimmer_medium-webfont.woff2') format('woff2'),
+         url('fonts/zimmer_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zimmerlight';
+    src: url('fonts/zimmer_light-webfont.woff2') format('woff2'),
+         url('fonts/zimmer_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'zimmer_regularregular';
+    src: url('fonts/zimmer_regular-webfont.woff2') format('woff2'),
+         url('fonts/zimmer_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+  font-family: 'zimmer_regularregular', arial, sans-serif;
+  color: $primary-color
+}
+a{
+  font-family: 'zimmer_boldbold', arial, sans-serif;
+  &:hover{
+    color: $room2;
+  }
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "zimmerlight", arial, sans-serif;
+  font-weight: 200;
+}
+p{
+  font-size: 16px;
+  line-height: 21px;
+  a{
+    color: $room1;
+    &:hover{
+      color: $room2;
+    }
+  }
+}
