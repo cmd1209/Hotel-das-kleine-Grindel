@@ -12,6 +12,9 @@
 				</div>
 
 				<!-- copyright -->
+				<p>
+					<a href="mailto: hotel@das-kleine-grindel.com" class="email">hotel@das-kleine-grindel.com</a>
+				</p>
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
 				</p>
