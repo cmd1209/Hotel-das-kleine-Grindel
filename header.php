@@ -50,7 +50,7 @@
 					</div>
 
 
-					<a href="#" class="buchen-star">
+					<a href="https://ibe.sabeeapp.com/properties/Hotel-Das-Kleine-Grindel-buchung/?p=bSp0bd59f93dceea3c2&checkin=23-05-2017&checkout=24-05-2017" class="buchen-star">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/buchen-star.png" alt="Jetzt buchen">
 					</a>
 
