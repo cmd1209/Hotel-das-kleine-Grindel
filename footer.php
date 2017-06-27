@@ -10,7 +10,6 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/img/logo-neg.svg" alt="Logo" class="logo-footer">
 					</a>
 				</div>
-
 				<!-- copyright -->
 				<p>
 					<a href="mailto: hotel@das-kleine-grindel.com" class="email">hotel@das-kleine-grindel.com</a>
@@ -19,10 +18,8 @@
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
 				</p>
 				<!-- /copyright -->
-
 			</footer>
 			<!-- /footer -->
-
 		</div>
 		<!-- /wrapper -->
 

@@ -5,7 +5,6 @@
         <?php the_content(); ?>
     </div>
   </div>
-
   <div class="content-holder">
     <div class="row room1">
       <div class="col col--4-of-12 col-left col--m-1-of-3 col--s-1-of-2">
@@ -23,7 +22,6 @@
         <li>Terrasse</li>
         <li>Free WLAN</li>
         </ul>
-
           </div>
       <div class="col col--4-of-12 col-right col--m-1-of-3 col--s-1-of-1">
         <p class="beschreibung">
@@ -37,7 +35,6 @@
       </div>
     </div>
     </div>
-
     <div class="content-holder">
     <div class="row room2">
       <div class="col col--4-of-12 col-left col--m-1-of-3 col--s-1-of-1">

@@ -7,7 +7,6 @@
 				<?php elseif (is_page( array(6,47 ) )): ?>
           <img src="<?php echo get_template_directory_uri(); ?>/img/zimmer2.svg" alt="zimmer2" class="zimmer">
 				<?php else: ?>
-
 				<?php endif; ?>
       </div>
       <div class="col col--4-of-12 col--m-1-of-2 col--s-1-of-2">
