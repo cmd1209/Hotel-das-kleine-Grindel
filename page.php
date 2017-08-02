@@ -9,8 +9,13 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-<?php the_post_thumbnail(); // Fullsize image for the single post ?>
+<!-- <?php the_post_thumbnail(); // Fullsize image for the single post ?> -->
 
+
+				<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+        <div class="keyvisual" style="background:url(<?php echo $featuredImage; ?>)no-repeat center center;">
+
+        </div>
 
 				<?php if (is_page(8)): ?>
 					<?php include 'parts/home-block.php'; ?>
