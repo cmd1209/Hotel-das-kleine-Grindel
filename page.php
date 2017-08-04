@@ -15,7 +15,18 @@
 				<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 
 				<div class="owl-carousel owl-theme">
-					<div class="keyvisual" style="background:url(<?php echo $featuredImage; ?>)no-repeat center center;"></div>
+					<div class="keyvisual" style="background:url(<?php echo $featuredImage; ?>)no-repeat center center;">
+						<?php if (is_page(array(8, 43) )): ?>
+							<div class="content-holder centerfloat">
+								<div class="padded text-center">
+										<!-- <h2 class="site-title"><?php echo get_bloginfo( 'name' ); ?></h2> -->
+										<?php the_content(); ?>
+								</div>
+							</div>
+						<?php else: ?>
+						<?php endif; ?>
+					</div>
+					<div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-04.jpg)no-repeat center center;"></div>
 					<div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-04.jpg)no-repeat center center;"></div>
 					<div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-13.jpg)no-repeat center center;"></div>
 					<div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-09.jpg)no-repeat center center;"></div>

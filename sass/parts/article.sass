@@ -8,6 +8,7 @@ article.page
   background: linear-gradient(to bottom,  $primary-color 65%, white 65%, white 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63707a', endColorstr='#e5e5e5',GradientType=0 ) /* IE6-9 */
 
+
 .beschreibung
   margin: 0 0 0.5em 0
   @media (max-width: $toast-breakpoint-small)
@@ -15,6 +16,13 @@ article.page
 
 .block-holder
   margin-top: 1em
+
+.centerfloat
+  width: 50%
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
 
 .col-center
   text-align: center
@@ -27,7 +35,7 @@ article.page
   padding: 1em 1em 1em 1em
   position: relative
   width: 75%
-  margin: -100px auto 0 auto
+  margin: -2em auto 0 auto
   @media (max-width: $toast-breakpoint-medium) and (min-width: $toast-breakpoint-small)
     width: 100%
     margin: 0 auto 0 auto

@@ -1,12 +1,5 @@
 <div class="content-block">
   <div class="content-holder">
-    <div class="padded text-center">
-        <h2 class="site-title"><?php echo get_bloginfo( 'name' ); ?></h2>
-        <?php the_content(); ?>
-    </div>
-  </div>
-
-  <div class="content-holder">
     <div class="row room1">
       <div class="col col--4-of-12 col-left col--m-1-of-3 col--s-1-of-2">
         <a href="/index.php?p=4" class="zimmer-img">
