@@ -7,10 +7,10 @@
         </a>
       </div>
       <div class="col col--4-of-12 col-center col--m-1-of-3 col--s-1-of-2">
-        <p class="beschreibung">
+        <!-- <p class="beschreibung">
           <?php $meta = get_post_meta( 4, 'Beschreibung' );
           if( !empty($meta) ) { echo $meta[0]; } ?>
-        </p>
+        </p> -->
         <h4 class="room-size room1color">
           <?php $meta = get_post_meta( 4, 'QM' );
           if( !empty($meta) ) { echo $meta[0]; } ?>
@@ -27,8 +27,7 @@
 
           </div>
       <div class="col col--4-of-12 col-right col--m-1-of-3 col--s-1-of-1">
-        <a href="http://das-kleine-grindel.com/de/zimmer-1" class="zimmer-link"><img src="http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-01.jpg" alt=""></a>
-
+        <a href="http://das-kleine-grindel.com/de/zimmer-1" class="zimmer-link" style="background: url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-01.jpg)no-repeat center center;"></a>
       </div>
     </div>
     </div>
@@ -36,13 +35,13 @@
     <div class="content-holder">
     <div class="row room2">
       <div class="col col--4-of-12 col-left col--m-1-of-3 col--s-1-of-1">
-        <a href="http://das-kleine-grindel.com/de/zimmer-2" class="zimmer-link"><img src="http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-09.jpg" alt=""></a>
+        <a href="http://das-kleine-grindel.com/de/zimmer-2" class="zimmer-link" style="background: url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-09.jpg)no-repeat center center;"></a>
       </div>
       <div class="col col--4-of-12 col-center col--m-1-of-3 col--s-1-of-2">
-        <p class="beschreibung">
+        <!-- <p class="beschreibung">
           <?php $meta = get_post_meta( 6, 'Beschreibung' );
           if( !empty($meta) ) { echo $meta[0]; } ?>
-        </p>
+        </p> -->
         <h4 class="room-size room2color">
           <?php $meta = get_post_meta( 6, 'QM' );
           if( !empty($meta) ) { echo $meta[0]; } ?>
