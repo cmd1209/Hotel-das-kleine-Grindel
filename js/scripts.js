@@ -19,7 +19,8 @@
 		    loop:true,
 		    margin:10,
 		    autoplay:true,
-		    autoplayTimeout:6000,
+				animateOut: 'fadeOut',
+		    autoplayTimeout:7000,
 		    autoplayHoverPause:true,
 				dots: false,
 		});

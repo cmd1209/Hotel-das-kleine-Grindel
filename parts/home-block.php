@@ -71,35 +71,35 @@
   <div class="block-holder">
     <div class="row">
       <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square1"></div>
+        <a href="http://das-kleine-grindel.com/de/zimmer-1" class="square square1"></a>
       </div>
       <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square2"></div>
+        <a href="http://das-kleine-grindel.com/de/zimmer-2" class="square square2"></a>
       </div>
       <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square3"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square4"></div>
-      </div>
-      <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square5"></div>
-      </div>
-      <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square6"></div>
+        <a href="http://das-kleine-grindel.com/de/zimmer-1" class="square square3"></a>
       </div>
     </div>
     <div class="row">
       <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square7"></div>
+        <a href="http://das-kleine-grindel.com/de/zimmer-2" class="square square4"></a>
       </div>
       <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square8"></div>
+        <a href="http://das-kleine-grindel.com/de/zimmer-1" class="square square5"></a>
       </div>
       <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
-        <div class="square square9"></div>
+        <a href="http://das-kleine-grindel.com/de/zimmer-2" class="square square6"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
+        <a href="http://das-kleine-grindel.com/de/zimmer-1" class="square square7"></a>
+      </div>
+      <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
+        <a href="http://das-kleine-grindel.com/de/zimmer-2" class="square square8"></a>
+      </div>
+      <div class="col col--4-of-12 col--m-1-of-3 col--s-1-of-3">
+        <a href="http://das-kleine-grindel.com/de/zimmer-1" class="square square9"></a>
       </div>
     </div>
   </div>
