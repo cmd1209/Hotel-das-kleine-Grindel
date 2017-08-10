@@ -3,9 +3,9 @@
     <div class="row padded">
       <div class="col col--4-of-12 col--m-4-of-12 col--s-1-of-1">
         <?php if (is_page( array( 4,45 ) )): ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/img/zimmer1.svg" alt="zimmer1" class="zimmer">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/zimmer1.svg" alt="zimmer1" class="zimmer zimmer-img">
 				<?php elseif (is_page( array(6,47 ) )): ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/img/zimmer2.svg" alt="zimmer2" class="zimmer">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/zimmer2.svg" alt="zimmer2" class="zimmer zimmer-img">
 				<?php else: ?>
 				<?php endif; ?>
         <?php if (is_page(array(4, 45) )): ?>
