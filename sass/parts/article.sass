@@ -24,6 +24,8 @@ article.page
   left: 50%
   transform: translate(-50%, -50%)
 
+.col
+  padding-left: 0px
 .col-center
   text-align: center
   @media (max-width: $toast-breakpoint-small)
@@ -73,12 +75,16 @@ article.page
 .room-size
   text-align: center
   font-size: 1.75em
-  margin: 0 0 0.5em 0
+  margin: 10% 0 0.5em 0
+  @media (max-width: $toast-breakpoint-small)
+    font-size: 1.25em
 
 .room-price
   text-align: center
   font-size: 1.75em
   margin: 0
+  @media (max-width: $toast-breakpoint-small)
+    font-size: 1.25em
 
 .site-description
   text-align: center
@@ -91,15 +97,14 @@ article.page
 
 .square
   display: block
-  margin-bottom: 1em
-  min-width: 100%
-  height: 200px
-  background-color: $primary-color
-  border: 2px solid $room1
+  position: relative
+  flex-basis: 50%
+  height: 300px
+  background-color: $offwhite
   @media (max-width: $toast-breakpoint-medium)
-    height: 225px
+    height: 250px
   @media (max-width: $toast-breakpoint-small)
-    height: 100px
+    height: 200px
 
 $slug: square !default
 
@@ -108,10 +113,10 @@ $slug: square !default
     background: url(img/squares/sqback + $i) center center no-repeat
     background-size: cover
     transition: all 1s ease
-    &:hover
-      border: 2px solid $room2
-      opacity: 0.6
-      transition: all 1s ease
+
+.squareblank
+  background: none
+  background-color: $offwhite
 
 .welcome
   width: 360px!important
@@ -126,8 +131,14 @@ $slug: square !default
 
 .zimmer-img
   display: block
+  width: 90%
+  vertical-align: middle
   padding: 1.5em
   margin-bottom: 1em
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
 .zimmer-link
   width: 100%
   min-height: 250px
@@ -142,3 +153,17 @@ $slug: square !default
     height: 225px
   @media (max-width: $toast-breakpoint-small)
     height: 100px
+
+.dflex
+  display: flex
+  @media (max-width: $toast-breakpoint-small)
+    flex-direction: column
+.flexrow
+  display: flex
+.block
+  flex: 50%
+  padding: 1em
+.block1
+  background-color: $room1
+.block2
+  background-color: $room2
