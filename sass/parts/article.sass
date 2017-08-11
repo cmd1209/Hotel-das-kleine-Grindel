@@ -63,8 +63,10 @@ article.page
 
 .keyvisual
   width: 100%
-  height: 92vh
+  height: 750px
   background-size: cover!important
+  @media (max-width: $toast-breakpoint-small)
+    height: 550px
 
 .room1
   padding: 1em
@@ -102,17 +104,20 @@ article.page
   height: 300px
   background-color: $offwhite
   @media (max-width: $toast-breakpoint-medium)
-    height: 250px
+    height: 210px
   @media (max-width: $toast-breakpoint-small)
     height: 200px
 
 $slug: square !default
 
-@for $i from 1 through 9
+@for $i from 1 through 19
   .#{$slug}#{$i}
     background: url(img/squares/sqback + $i) center center no-repeat
     background-size: cover
     transition: all 1s ease
+
+.square100
+  flex-basis: 100%
 
 .squareblank
   background: none
@@ -129,9 +134,23 @@ $slug: square !default
   left: 50%
   transform: translate(-50%,-50%)
 
+.welcomeimg
+  background-color: $offwhite
+  padding: 1em
+
+.welcomecontainer
+  padding: 1em
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+  background-color: rgba($neutral-grey, 0.85)
+  border: 2px solid $room1
+  @media (max-width: $toast-breakpoint-small)
+    width: 330px
 .zimmer-img
   display: block
-  width: 90%
+  width: 84%
   vertical-align: middle
   padding: 1.5em
   margin-bottom: 1em
@@ -153,8 +172,11 @@ $slug: square !default
     height: 225px
   @media (max-width: $toast-breakpoint-small)
     height: 100px
-
+.content
+  background-color: $offwhite
+  padding: 2em
 .dflex
+  background-color: $offwhite
   display: flex
   @media (max-width: $toast-breakpoint-small)
     flex-direction: column
@@ -162,8 +184,41 @@ $slug: square !default
   display: flex
 .block
   flex: 50%
-  padding: 1em
+  position: relative
+.blockpadding
+  padding: 2em
+  @media (max-width: $toast-breakpoint-medium)
+    padding: 0
 .block1
   background-color: $room1
 .block2
   background-color: $room2
+.clickoverlay
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  width: 100%
+  height: 100%
+  z-index: 999
+  display: block
+  transition: all 1s ease
+.clickoverlayroom1
+  background-color: rgba($room1,0)
+  &:hover
+    background-color: rgba($room1,0.5)
+    transition: all 1s ease
+.clickoverlayroom2
+  background-color: rgba($room2,0)
+  &:hover
+    background-color: rgba($room2,0.5)
+    transition: all 1s ease
+.dflexintro
+  justify-content: center
+.introtext
+  flex-basis: 50%
+  padding: 3em 0
+  @media (max-width: $toast-breakpoint-medium)
+    flex-basis: 75%
+    padding: 3em 1em

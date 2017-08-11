@@ -20,7 +20,7 @@
 		    margin:10,
 		    autoplay:true,
 				animateOut: 'fadeOut',
-		    autoplayTimeout:7000,
+		    autoplayTimeout:4000,
 		    autoplayHoverPause:true,
 				dots: false,
 		});
