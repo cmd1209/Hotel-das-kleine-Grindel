@@ -59,6 +59,13 @@
 					</nav>
 
 					<nav id="servicenav" class="nav" role="navigation">
+						<a href="mailto:hotel@das-kleine-grindel.com">
+							<svg version="1.1" id="mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								 width="24px" height="14px" viewBox="0 0 30.442 23.046" enable-background="new 0 0 30.442 23.046" xml:space="preserve">
+							<path id="fillpath" fill="#63707A" d="M1.656,1.639v20h27v-20H1.656z M26.542,3.639L15.658,14.522L4.773,3.639H26.542z M3.656,19.639V5.349
+								l12.002,12.001L26.656,6.353v13.286H3.656z"/>
+							</svg>
+						</a>
 						<?php servicenav(); ?>
 					</nav>
 

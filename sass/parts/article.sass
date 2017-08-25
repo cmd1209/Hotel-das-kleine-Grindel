@@ -8,14 +8,35 @@ article.page
   background: linear-gradient(to bottom,  $primary-color 65%, white 65%, white 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63707a', endColorstr='#e5e5e5',GradientType=0 ) /* IE6-9 */
 
-
 .beschreibung
   margin: 0 0 0.5em 0
   @media (max-width: $toast-breakpoint-small)
     margin: 1em 0
 
+.block
+  flex: 50%
+  position: relative
+
+.blockpadding
+  padding: 2em
+  @media (max-width: $toast-breakpoint-medium)
+    padding: 0
+
+.block1
+  background-color: $room1
+
+.block2
+  background-color: $room2
+
 .block-holder
   margin-top: 1em
+
+.blur
+  filter: blur(5px)
+
+.content
+  background-color: $offwhite
+  padding: 2em
 
 .centerfloat
   width: 50%
@@ -24,8 +45,33 @@ article.page
   left: 50%
   transform: translate(-50%, -50%)
 
+.clickoverlay
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  width: 100%
+  height: 100%
+  z-index: 999
+  display: block
+  transition: all 1s ease
+
+.clickoverlayroom1
+  background-color: rgba($room1,0)
+  &:hover
+    background-color: rgba($room1,0.5)
+    transition: all 1s ease
+
+.clickoverlayroom2
+  background-color: rgba($room2,0)
+  &:hover
+    background-color: rgba($room2,0.5)
+    transition: all 1s ease
+
 .col
   padding-left: 0px
+
 .col-center
   text-align: center
   @media (max-width: $toast-breakpoint-small)
@@ -53,6 +99,15 @@ article.page
   &:last-of-type
     margin: 0
 
+.dflex
+  background-color: $offwhite
+  display: flex
+  @media (max-width: $toast-breakpoint-small)
+    flex-direction: column
+
+.dflexintro
+  justify-content: center
+
 .features
   font-size: 1.35em
   text-transform: uppercase
@@ -61,12 +116,31 @@ article.page
   margin: 1em 0
   text-align: center
 
+.flexrow
+  display: flex
+
+.introtext
+  flex-basis: 50%
+  padding: 3em 0
+  @media (max-width: $toast-breakpoint-medium)
+    flex-basis: 75%
+    padding: 2em 1em
+  @media (max-width: $toast-breakpoint-medium)
+    padding: 1em 1em
+
 .keyvisual
   width: 100%
   height: 750px
   background-size: cover!important
-  @media (max-width: $toast-breakpoint-small)
+  @media (max-width: $toast-breakpoint-medium)
     height: 550px
+  @media (max-width: $toast-breakpoint-small)
+    height: 425px
+
+.maxwidth
+  max-width: 100%
+  width: 100%
+  height: auto
 
 .room1
   padding: 1em
@@ -148,6 +222,7 @@ $slug: square !default
   border: 2px solid $room1
   @media (max-width: $toast-breakpoint-small)
     width: 330px
+
 .zimmer-img
   display: block
   width: 84%
@@ -158,6 +233,7 @@ $slug: square !default
   top: 50%
   left: 50%
   transform: translate(-50%,-50%)
+
 .zimmer-link
   width: 100%
   min-height: 250px
@@ -172,53 +248,3 @@ $slug: square !default
     height: 225px
   @media (max-width: $toast-breakpoint-small)
     height: 100px
-.content
-  background-color: $offwhite
-  padding: 2em
-.dflex
-  background-color: $offwhite
-  display: flex
-  @media (max-width: $toast-breakpoint-small)
-    flex-direction: column
-.flexrow
-  display: flex
-.block
-  flex: 50%
-  position: relative
-.blockpadding
-  padding: 2em
-  @media (max-width: $toast-breakpoint-medium)
-    padding: 0
-.block1
-  background-color: $room1
-.block2
-  background-color: $room2
-.clickoverlay
-  position: absolute
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  width: 100%
-  height: 100%
-  z-index: 999
-  display: block
-  transition: all 1s ease
-.clickoverlayroom1
-  background-color: rgba($room1,0)
-  &:hover
-    background-color: rgba($room1,0.5)
-    transition: all 1s ease
-.clickoverlayroom2
-  background-color: rgba($room2,0)
-  &:hover
-    background-color: rgba($room2,0.5)
-    transition: all 1s ease
-.dflexintro
-  justify-content: center
-.introtext
-  flex-basis: 50%
-  padding: 3em 0
-  @media (max-width: $toast-breakpoint-medium)
-    flex-basis: 75%
-    padding: 3em 1em

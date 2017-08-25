@@ -9,8 +9,9 @@
 		$('.nav-activator').click(function(){
 			$('#header').toggleClass('whitebackground primarybackground');
 			$('#bars').toggleClass('whitefill primaryfill');
+			$('#fillpath').toggleClass('whitefill primaryfill');
 			$('#mainnav').fadeToggle();
-				$('#servicenav a').toggleClass('textwhite textprimarycolor');
+			$('#servicenav a').toggleClass('textwhite textprimarycolor');
 		});
 
 		var owl = $('.owl-carousel');

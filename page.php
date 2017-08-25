@@ -13,6 +13,10 @@
 					<?php include 'parts/home-block-eng.php'; ?>
 				<?php elseif (is_page( array( 4,6,45,47 ) )  ): ?>
 					<?php include 'parts/room-content.php'; ?>
+				<?php elseif (is_page( array( 107,109) )  ): ?>
+					<?php include 'parts/anreise-content.php'; ?>
+				<?php elseif (is_page( array( 22,53) )  ): ?>
+					<?php include 'parts/endecken-content.php'; ?>
 				<?php else: ?>
 					<?php include 'parts/normal-content.php'; ?>
 				<?php endif; ?>

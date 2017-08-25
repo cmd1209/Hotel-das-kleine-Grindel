@@ -23,8 +23,8 @@
   <div class="block block1 blockpadding">
     <a href="/index.php?p=4" class="clickoverlay clickoverlayroom1"></a>
     <div class="flexrow">
-      <div class="square square10"></div>
-      <div class="square square18"></div>
+      <div class="square square3"></div>
+      <div class="square square5"></div>
     </div>
     <div class="flexrow">
       <div class="square squareblank">
@@ -32,26 +32,26 @@
           <img src="<?php echo get_template_directory_uri(); ?>/img/zimmer1.svg" alt="zimmer1" >
         </a>
       </div>
-      <div class="square square1"></div>
+      <div class="square square6"></div>
     </div>
     <div class="flexrow">
-      <div class="square square2"></div>
-      <div class="square square12"></div>
+      <div class="square square7"></div>
+      <div class="square square8"></div>
     </div>
     <div class="flexrow">
-      <div class="square square3"></div>
-      <div class="square square4"></div>
+      <div class="square square19"></div>
+      <div class="square square15"></div>
     </div>
   </div>
   <div class="block block2 blockpadding">
     <a href="/index.php?p=6" class="clickoverlay clickoverlayroom2"></a>
     <div class="flexrow">
-      <div class="square square11"></div>
-      <div class="square square19"></div>
+      <div class="square square1"></div>
+      <div class="square square9"></div>
     </div>
     <div class="flexrow">
-      <div class="square square5"></div>
-      <div class="square square16"></div>
+      <div class="square square11"></div>
+      <div class="square square12"></div>
     </div>
     <div class="flexrow">
       <div class="square squareblank">
@@ -59,11 +59,11 @@
           <img src="<?php echo get_template_directory_uri(); ?>/img/zimmer2.svg" alt="zimmer2" >
         </a>
       </div>
-      <div class="square square6"></div>
+      <div class="square square13"></div>
     </div>
     <div class="flexrow">
       <div class="square square17"></div>
-      <div class="square square8"></div>
+      <div class="square square18"></div>
     </div>
   </div>
 </div>
