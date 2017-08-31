@@ -8,7 +8,8 @@
 
 
 				<?php if (is_page(8)): ?>
-					<?php include 'parts/home-block.php'; ?>
+					<!-- put back in when room number 2 is finaly ready.  simply take out the -n1 after home-block-->
+					<?php include 'parts/home-block-n1.php'; ?>
 				<?php elseif (is_page(43)): ?>
 					<?php include 'parts/home-block-eng.php'; ?>
 				<?php elseif (is_page( array( 4,6,45,47 ) )  ): ?>
