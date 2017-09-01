@@ -1,5 +1,4 @@
 <?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-
 <div class="owl-carousel owl-theme">
   <div class="keyvisual" style="background:url(<?php echo $featuredImage; ?>)no-repeat center center;">
       <div class="welcomecontainer">
