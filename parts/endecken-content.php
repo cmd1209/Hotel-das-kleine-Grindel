@@ -15,27 +15,38 @@
   </div>
 </div>
 
-
+<div class="dflex dflexintro">
+  <div class="introtext">
+    <?php the_content(); ?>
+  </div>
+</div>
 <div class="dflex">
   <div class="block">
     <div class="flexrow">
-      <div class="content">
-        <?php the_content(); ?>
-      </div>
+      <div class="square square25"></div>
+      <div class="square square30"></div>
+    </div>
+    <div class="flexrow">
+      <div class="square square31"></div>
+      <div class="square square28"></div>
+    </div>
+    <div class="flexrow">
+      <div class="square square29"></div>
+      <div class="square square24"></div>
     </div>
   </div>
   <div class="block">
     <div class="flexrow">
-      <div class="square square1"></div>
-      <div class="square square9"></div>
+      <div class="square square32"></div>
+      <div class="square square26"></div>
     </div>
     <div class="flexrow">
-      <div class="square square11"></div>
-      <div class="square square12"></div>
+      <div class="square square27"></div>
+      <div class="square square21"></div>
     </div>
     <div class="flexrow">
-      <div class="square square13"></div>
-      <div class="square square17"></div>
+      <div class="square square23"></div>
+      <div class="square square22"></div>
     </div>
   </div>
 </div>

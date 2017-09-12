@@ -12,6 +12,9 @@
 				</div>
 				<!-- copyright -->
 				<p>
+					Grindelhof 59  |  20146 Hamburg  |  T +49 (0)40 4321 3 666
+				</p>
+				<p>
 					<a href="mailto: hotel@das-kleine-grindel.com" class="email">hotel@das-kleine-grindel.com</a>
 				</p>
 				<p class="copyright">

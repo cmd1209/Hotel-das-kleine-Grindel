@@ -7,6 +7,7 @@
   </div>
   <div class="keyvisual" style="background:url(<?php echo $featuredImage; ?>)no-repeat center center;">
   </div>
+  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/09/grindel_nr2.jpg)no-repeat center center;"></div>
   <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-01.jpg)no-repeat center center;"></div>
   <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-05.jpg)no-repeat center center;"></div>
   <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-02.jpg)no-repeat center center;"></div>
