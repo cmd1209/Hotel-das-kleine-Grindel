@@ -22,7 +22,7 @@
 <div class="dflex">
   <div class="block">
     <div class="flexrow">
-      <div class="square square4"></div>
+      <div class="square square33"></div>
       <div class="square square24"></div>
     </div>
     <div class="flexrow">
@@ -45,7 +45,7 @@
     </div>
     <div class="flexrow">
       <div class="square square22"></div>
-      <div class="square square5"></div>
+      <div class="square square34"></div>
     </div>
   </div>
 </div>
