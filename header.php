@@ -31,8 +31,14 @@
 
 
 			<header class="header clear whitebackground" role="banner" id="header">
-				<a href="javascript:void(0);" class="nav-activator">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="-604.449 -2627 31.449 25">
+			<div id="menu-icon" class="nav-activator">
+  			<span></span>
+  			<span></span>
+  			<span></span>
+  			<span></span>
+			</div>
+				<!-- <a href="javascript:void(0);" class="nav-activator">
+					<svg xmlns="https://www.w3.org/2000/svg" viewBox="-604.449 -2627 31.449 25">
 					  <g id="bars" class="primaryfill" data-name="Gruppe 19" transform="translate(-771 -2643)">
 					    <rect id="Rechteck_18" data-name="Rechteck 18" width="31.449" height="5" rx="1" transform="translate(166.551 16)"/>
 					    <rect id="Rechteck_57" data-name="Rechteck 57" width="31.449" height="5" rx="1" transform="translate(166.551 26)"/>
@@ -40,7 +46,7 @@
 					  </g>
 					</svg>
 
-				</a>
+				</a> -->
 
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
@@ -50,7 +56,7 @@
 					</div>
 
 
-					<a href="https://ibe.sabeeapp.com/properties/Hotel-Das-Kleine-Grindel-buchung/?p=bSp0bd59f93dceea3c2&checkin=23-05-2017&checkout=24-05-2017" class="buchen-star">
+					<a href="https://ibe.sabeeapp.com/properties/Hotel-Das-Kleine-Grindel-buchung/?p=bSp0bd59f93dceea3c2" target="_blank" class="buchen-star">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/buchen-star.png" alt="Jetzt buchen">
 					</a>
 
@@ -60,11 +66,11 @@
 
 					<nav id="servicenav" class="nav" role="navigation">
 						<a href="mailto:hotel@das-kleine-grindel.com">
-							<svg version="1.1" id="mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+							<!-- <svg version="1.1" id="mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 								 width="24px" height="14px" viewBox="0 0 30.442 23.046" enable-background="new 0 0 30.442 23.046" xml:space="preserve">
 							<path id="fillpath" fill="#63707A" d="M1.656,1.639v20h27v-20H1.656z M26.542,3.639L15.658,14.522L4.773,3.639H26.542z M3.656,19.639V5.349
 								l12.002,12.001L26.656,6.353v13.286H3.656z"/>
-							</svg>
+							</svg> -->
 						</a>
 						<?php servicenav(); ?>
 					</nav>

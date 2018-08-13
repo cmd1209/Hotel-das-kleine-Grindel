@@ -2,17 +2,14 @@
 
 <div class="owl-carousel owl-theme">
   <div class="keyvisual" style="background:url(<?php echo $featuredImage; ?>)no-repeat center center;">
-      <div class="welcomecontainer">
-        <img src="http://das-kleine-grindel.com/wp-content/uploads/2017/08/Welcome.jpg" alt="welcome" class="welcomeimg" width="360px" height="auto">
-      </div>
   </div>
-  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-16.jpg)no-repeat center center;"></div>
-  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-04.jpg)no-repeat center center;"></div>
-  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-13.jpg)no-repeat center center;"></div>
-  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-17.jpg)no-repeat center center;"></div>
-  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-09.jpg)no-repeat center center;"></div>
-  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-22.jpg)no-repeat center center;"></div>
-  <div class="keyvisual" style="background:url(http://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-03.jpg)no-repeat center center;"></div>
+  <div class="keyvisual" style="background:url(https://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-16.jpg)no-repeat center center;"></div>
+  <div class="keyvisual" style="background:url(https://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-04.jpg)no-repeat center center;"></div>
+  <div class="keyvisual" style="background:url(https://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-13.jpg)no-repeat center center;"></div>
+  <div class="keyvisual" style="background:url(https://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-17.jpg)no-repeat center center;"></div>
+  <div class="keyvisual" style="background:url(https://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-09.jpg)no-repeat center center;"></div>
+  <div class="keyvisual" style="background:url(https://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-22.jpg)no-repeat center center;"></div>
+  <div class="keyvisual" style="background:url(https://das-kleine-grindel.com/wp-content/uploads/2017/08/Grindelhof_LoRes-03.jpg)no-repeat center center;"></div>
 </div>
 <div class="dflex dflexintro">
   <div class="introtext">
@@ -44,7 +41,7 @@
     </div>
   </div>
   <div class="block block2 blockpadding">
-    <a href="/index.php?p=47" class="clickoverlay clickoverlayroom2"></a>
+    <a href="/index.php?p=245" class="clickoverlay clickoverlayroom2"></a>
     <div class="flexrow">
       <div class="square square1"></div>
       <div class="square square9"></div>

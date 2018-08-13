@@ -1,4 +1,3 @@
-
 #mainnav
   position: absolute
   z-index: 999
@@ -12,6 +11,9 @@
     font-size: 1.5em
     font-weight: 400
     text-transform: uppercase
+    white-space: nowrap
+    display: inline-block
+    padding: 0.333em 
     &:hover
       color: $room2
   li
@@ -22,6 +24,7 @@
       list-style: none
   ul
     padding: 0
+    text-align: center
 
 .nav-activator
   position: absolute
@@ -35,10 +38,16 @@
     #bars
       fill: $room2
       transition: background-color 0.25s ease
-  @media (max-width: $toast-breakpoint-medium)
-    left: 3em
-  @media (max-width: $toast-breakpoint-small)
-    left: 1em
+
+#servicenav
+  .dashicons-email-alt:before
+    margin: -3px 3px 0 0.33em 
+.footer 
+  .dashicons-before:before
+    margin: 4px 0 0 0
+
+.current-lang a
+  border-bottom: 4px solid lighten($primary-color, 15)
 
 .maillogo
   max-width: 68%
@@ -63,7 +72,7 @@
     display: inline-block
   li
     display: inline-block
-    margin: 0 0.66em
+    margin: 0 0.33em
     img
       vertical-align: middle!important
       margin-top: -5px
@@ -81,3 +90,58 @@
   height: 130px
   transition: all 0.5s ease-in-out
   background-color: white
+
+#menu-icon
+  width: 30px
+  height: 30px
+  position: absolute
+  left: 166px
+  top: 50%
+  z-index: 999
+  transform: rotate(0deg) translateY(-50%)
+  transition: .5s ease-in-out
+  cursor: pointer
+  @media (max-width: $toast-breakpoint-medium)
+    left: 3em
+  @media (max-width: $toast-breakpoint-small)
+    left: 1em
+
+
+#menu-icon span
+  display: block
+  position: absolute
+  height: 4px
+  width: 100%
+  background: $primary-color
+  border-radius: 5px
+  opacity: 1
+  left: 0
+  transform: rotate(0deg)
+  transition: .25s ease-in-out
+
+#menu-icon span:nth-child(1)
+  top: 0px
+
+#menu-icon span:nth-child(2),#menu-icon span:nth-child(3)
+  top: 10px
+
+#menu-icon span:nth-child(4)
+  top: 20px
+
+#menu-icon.open span:nth-child(1)
+  top: 10px
+  width: 0%
+  left: 50%
+
+#menu-icon.open span:nth-child(2)
+  transform: rotate(45deg)
+  background: white
+
+#menu-icon.open span:nth-child(3)
+  transform: rotate(-45deg)
+  background: white
+
+#menu-icon.open span:nth-child(4)
+  top: 10px
+  width: 0%
+  left: 50%

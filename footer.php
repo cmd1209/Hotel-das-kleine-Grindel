@@ -15,7 +15,7 @@
 					Grindelhof 59  |  20146 Hamburg  |  T +49 (0)40 4321 3 666
 				</p>
 				<p>
-					<a href="mailto: hotel@das-kleine-grindel.com" class="email">hotel@das-kleine-grindel.com</a>
+					<a href="mailto: hotel@das-kleine-grindel.com" class="email"><img src="http://das-kleine-grindel.com/wp-content/uploads/2018/08/email-image.jpg" alt="" width="245" height="29"></a> | <a href="http://das-kleine-grindel.com/de/impressum/" class="email">Impressum & Datenschutz</a>
 				</p>
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
@@ -29,16 +29,6 @@
 		<?php wp_footer(); ?>
 
 		<!-- analytics -->
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-10932812-7', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 	</body>
 </html>
